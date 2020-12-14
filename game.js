@@ -96,6 +96,7 @@ function buyAutoItem(item) {
         totalUpgrades += itemMulti;
         itemAutoMulti = itemMulti;
         totalAuto += itemMulti;
+        autoUpgrades[item].price += 55;
         console.log(itemAutoPrice, itemMulti, item);
         //priceChange(item);
         startInterval();
