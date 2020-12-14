@@ -79,6 +79,7 @@ function buyClickItem(item) {
         totalUpgrades += itemMulti;
         itemClickMulti = itemMulti;
         totalClick += itemMulti;
+        clickUpgrades[item].price += 50;
         console.log(itemClickPrice, itemMulti, item);
         //priceChange(item);
     } else {
