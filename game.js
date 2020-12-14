@@ -105,8 +105,3 @@ function buyAutoItem(item) {
     }
     update();
 }
-
-function priceChange(item) {
-
-    return item.price += 50;
-}
