@@ -14,9 +14,6 @@ let clickUpgrades = {
 
 };
 
-let pickAxePrice = clickUpgrades.pickAxe.price;
-let cheeseKnifePrice = clickUpgrades.cheeseKnife.price;
-
 let autoUpgrades = {
     rover: {
         price: 35,
