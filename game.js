@@ -41,7 +41,6 @@ let totalUpgrades = 0;
 function mineRes() {
     let multiClick = totalClick * 1;
     itemClickMulti == 0 ? totalCheese++ : totalCheese += multiClick;
-
     update();
 }
 
@@ -55,6 +54,7 @@ function startInterval() {
 }
 
 function update() {
+
     document.getElementById("cheese").innerText = JSON.stringify(totalCheese);
     document.getElementById("upgrades").innerText = JSON.stringify(totalUpgrades);
     document.getElementById("total-click").innerText = JSON.stringify(totalClick);

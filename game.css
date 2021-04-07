@@ -1,7 +1,4 @@
-body {
-    background-color: black;
-    
-}
 .super-moon:{
-    
+    transition: transform 1.5s;
+    transform: scale(1.05);
 }
