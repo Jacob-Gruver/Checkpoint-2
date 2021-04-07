@@ -2,3 +2,7 @@
     transition: transform 1.5s;
     transform: scale(2.0);
 }
+
+img{
+    border-radius: 50%;
+}
