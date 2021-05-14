@@ -3,11 +3,11 @@
     transform: scale(2.0);
 }
 
-.super-moon {
+/* .super-moon {
     border-radius: 30%;
 
-}
+} */
 
 img{
-    border-radius: 50%;
+    border-radius: 30%;
 }
