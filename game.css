@@ -1,7 +1,11 @@
 .super-moon:hover{
     transition: transform 1.5s;
     transform: scale(2.0);
+}
+
+.super-moon {
     border-radius: 30%;
+
 }
 
 img{
